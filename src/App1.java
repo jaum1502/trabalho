@@ -1,8 +1,8 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class App {
-    public App(){
+public class App1 {
+    public App1(){
 //-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("0");
@@ -16,6 +16,6 @@ public class App {
         System.out.print("A área total do terreno é de: " + df.format(area)+ "mt²");
     }
     public static void main(String[] args) throws Exception {
- new App();
+ new App1();
     }
 }
