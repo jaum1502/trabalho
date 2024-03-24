@@ -14,6 +14,7 @@ public class App1 {
         float area = larg*comp;
 //-------------------------------------------------------------SAÍDA------------------------------------------------------------------------
         System.out.print("A área total do terreno é de: " + df.format(area)+ "mt²");
+        entrada.close();
     }
     public static void main(String[] args) throws Exception {
  new App1();
