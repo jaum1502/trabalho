@@ -18,7 +18,7 @@ public class App14 {
         double comb = dist/12;
 
         System.out.println("Velocidade média: "+distancia.format(velMedia)+ " km/h");
-        System.out.println("Combustível gasto: testeteste R$"+dindin.format(comb));
+        System.out.println("Combustível gasto: R$"+dindin.format(comb));
 
 
 
