@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class App4 {
     public App4(){
+//-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         DecimalFormat df= new DecimalFormat("0.0");
         System.out.print("Digite a primeira nota:");
@@ -11,8 +12,9 @@ public class App4 {
         double nota2 = entrada.nextDouble();
         System.out.print("Digite a terceira nota:");
         double nota3 = entrada.nextDouble();
-
+//-------------------------------------------------------------PROCESSO------------------------------------------------------------------------
     double mediap = (nota1+nota2+nota3)/10;
+//-------------------------------------------------------------SAÍDA------------------------------------------------------------------------
     System.out.println("A média ponderada total é de: " + df.format(mediap));
     entrada.close();
     };

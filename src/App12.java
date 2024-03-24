@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App12 {
     public App12() {
-        // -----------------------------------------------------------------------
+//-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o nome do funcionário ");
         String nome = entrada.nextLine();
@@ -10,7 +10,7 @@ public class App12 {
         float horas = entrada.nextFloat();
         System.out.println("Digite o número de dependentes");
         int dependentes = entrada.nextInt();
-        // -----------------------------------------------------------------------
+//-------------------------------------------------------------PROCESSO------------------------------------------------------------------------
 
         double valorDep = (dependentes * 60);
         double impvalorDep = valorDep*0.135;
@@ -19,7 +19,7 @@ public class App12 {
         double salarioTrabalhoB=valorDep+horasT;
         double salarioTrabalhoL=salarioTrabalhoB-impvalorDep-impHorasT;
 
-        // -----------------------------------------------------------------------
+//-------------------------------------------------------------SAÍDA------------------------------------------------------------------------
         entrada.close();
         System.out.println("NOME: " + nome);
         System.out.println("SALÁRIO BRUTO: " + salarioTrabalhoB);
