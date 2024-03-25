@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class App16 {
-    public App16(teste) {
+    public App16() {
         //-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
