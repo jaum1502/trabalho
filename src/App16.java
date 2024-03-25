@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App16 {
     public App16() {
-        //-------------------------------------------------------------ENTRADAteste------------------------------------------------------------------------
+        //-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
         int valor1 = entrada.nextInt();
