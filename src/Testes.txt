@@ -248,7 +248,7 @@ Testes:
 (E) valor1 = 52; (S) valorFinal = 5 centenas, 4 dezenas, 6 unidades
 
 
-#Exercício 15
+#Exercício 16
 Suponha que um caixa disponha apenas de notas de 100, 10 e 1 reais. 
 Considerando que alguém está pagando uma compra, faça um programa que 
 determine e escreva o número mínimo de notas que o caixa deve fornecer 
@@ -256,12 +256,11 @@ como troco. Escreva também o número de cada tipo de nota a ser fornecido como 
 Suponha que o sistema monetário não utilize centavos.
 Análise: OK
 Entrada: valor1
-centena(valor1 / 100);
-dezena((valor1 % 100) / 10);
-unidade((valor1 % 10));
+velMedia = dist / min;
+comb = dist / 12;
 Saída: valorFinal
 
 Testes:
-(E) valor1 = 2; (S) valorFinal = 0 centenas, 0 dezenas, 2 unidades
-(E) valor1 = 18; (S) valorFinal = 0 centenas, 1 dezenas, 8 unidades
-(E) valor1 = 52; (S) valorFinal = 5 centenas, 4 dezenas, 6 unidades
+(E) valor1 = 520; (S) valorFinal = 0 cedeulas de 1, 2 cedeulas de 10, 5 cedeulas de 100
+(E) valor1 = 45; (S) valorFinal = 5 cedeulas de 1, 4 cedeulas de 10, 0 cedeulas de 100
+(E) valor1 = 200; (S) valorFinal = 0 cedeulas de 1, 0 cedeulas de 10, 3 cedeulas de 100
