@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class App15 {
-    public App15() {
+public class App16 {
+    public App16() {
         //-------------------------------------------------------------ENTRADA------------------------------------------------------------------------
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
@@ -11,11 +11,12 @@ public class App15 {
         int dezena = (valor1 % 100) / 10;
         int unidade = (valor1 % 10);
         //-------------------------------------------------------------SAÍDA------------------------------------------------------------------------
-        System.out.print(centena + " centena(s)      " + dezena + " dezena(s)     " + unidade + " unidade(s)");
+        System.out.println(unidade + " cédula(s) de R$1");
+        System.out.println(dezena + " cédula(s) de R$10");
+        System.out.println(centena + " cédula(s) de R$100");
         entrada.close();
     }
-
     public static void main(String[] args) {
-        new App15();
+        new App16();
     }
 }
