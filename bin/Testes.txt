@@ -230,6 +230,7 @@ Testes:
 (E) dist = 20, min = 10 (S) velMedia = 2; comb = 1,67
 (E) dist = 58, min = 9 (S) velMedia = 59; comb = 29,50
 
+
 #Exercício 15
 Construa um programa para ler um número inteiro (assuma até 3 dígitos) 
 e imprima a saída da seguinte forma:
@@ -244,4 +245,23 @@ Saída: valorFinal
 Testes:
 (E) valor1 = 2; (S) valorFinal = 0 centenas, 0 dezenas, 2 unidades
 (E) valor1 = 18; (S) valorFinal = 0 centenas, 1 dezenas, 8 unidades
-(E) valor1 = 52; (S) valorFinal = 0 centenas, 1 dezenas, 2 unidades
+(E) valor1 = 52; (S) valorFinal = 5 centenas, 4 dezenas, 6 unidades
+
+
+#Exercício 15
+Suponha que um caixa disponha apenas de notas de 100, 10 e 1 reais. 
+Considerando que alguém está pagando uma compra, faça um programa que 
+determine e escreva o número mínimo de notas que o caixa deve fornecer 
+como troco. Escreva também o número de cada tipo de nota a ser fornecido como troco. 
+Suponha que o sistema monetário não utilize centavos.
+Análise: OK
+Entrada: valor1
+centena(valor1 / 100);
+dezena((valor1 % 100) / 10);
+unidade((valor1 % 10));
+Saída: valorFinal
+
+Testes:
+(E) valor1 = 2; (S) valorFinal = 0 centenas, 0 dezenas, 2 unidades
+(E) valor1 = 18; (S) valorFinal = 0 centenas, 1 dezenas, 8 unidades
+(E) valor1 = 52; (S) valorFinal = 5 centenas, 4 dezenas, 6 unidades
