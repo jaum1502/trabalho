@@ -20,7 +20,7 @@ public class App14 {
         System.out.println("Combustível gasto: R$" + dindin.format(comb));
         entrada.close();
     }
-
+ 
     public static void main(String[] args) {
         new App14();
     }
